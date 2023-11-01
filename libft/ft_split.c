@@ -6,7 +6,7 @@
 /*   By: pgrossma <pgrossma@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/08 15:52:33 by pgrossma          #+#    #+#             */
-/*   Updated: 2023/10/16 12:24:07 by pgrossma         ###   ########.fr       */
+/*   Updated: 2023/11/01 21:28:34 by pgrossma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,10 +20,10 @@ static size_t	ft_wordcount(char const *s, char c)
 
 	i = 0;
 	count = 0;
-	while(s[i])
+	while (s[i])
 	{
 		found = 0;
-		while(s[i] && s[i] != c)
+		while (s[i] && s[i] != c)
 		{
 			found = 1;
 			i++;
