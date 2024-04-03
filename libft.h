@@ -6,7 +6,7 @@
 /*   By: pgrossma <pgrossma@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 15:10:05 by pgrossma          #+#    #+#             */
-/*   Updated: 2024/02/25 19:58:52 by pgrossma         ###   ########.fr       */
+/*   Updated: 2024/04/03 14:45:46 by pgrossma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <unistd.h>
 # include <limits.h>
 # include <stdint.h>
+# include <stdbool.h>
 
 typedef struct s_list
 {
@@ -28,7 +29,12 @@ int		ft_atoi(const char *str);
 long	ft_atol(const char *str);
 void	ft_bzero(void *s, size_t n);
 void	*ft_calloc(size_t count, size_t size);
-void	ft_free_array(void **array);
+void	ft_arr_free(void **array);
+char	**ft_arr_add(char *str, char **arr);
+char	**ft_arr_create();
+char	**ft_arr_create_len(size_t len);
+size_t	ft_arr_len(char **arr);
+bool	ft_arr_cpy(char **src, char **dst);
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);
 int		ft_isascii(int c);
