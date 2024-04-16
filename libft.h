@@ -33,6 +33,7 @@ void	ft_arr_free(void **array);
 char	**ft_arr_add(char *str, char **arr);
 char	**ft_arr_create();
 char	**ft_arr_create_len(size_t len);
+char	**ft_arr_rm(size_t	ind, char **arr);
 size_t	ft_arr_len(char **arr);
 bool	ft_arr_cpy(char **src, char **dst);
 int		ft_isalnum(int c);

@@ -23,7 +23,7 @@ SRCSLIBFT	=	ft_atof.c ft_atoi.c ft_atol.c ft_bzero.c ft_calloc.c\
 				ft_tolower.c ft_toupper.c \
 				ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstadd_back.c\
 				ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstiter.c ft_lstmap.c \
-				ft_arr_add.c ft_arr_cpy.c ft_arr_create_len.c ft_arr_create.c ft_arr_free.c ft_arr_len.c
+				ft_arr_add.c ft_arr_cpy.c ft_arr_create_len.c ft_arr_create.c ft_arr_free.c ft_arr_len.c ft_arr_rm.c
 SRCSPRINTF	=	ft_printf.c ft_putchar_pf.c ft_putnbr_pf.c ft_putstr_pf.c ft_puthex_pf.c ft_putunbr_pf.c
 SRCSGNL		=	get_next_line.c get_next_line_utils.c
 
