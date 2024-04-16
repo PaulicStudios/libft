@@ -6,12 +6,11 @@
 /*   By: pgrossma <pgrossma@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 12:43:11 by pgrossma          #+#    #+#             */
-/*   Updated: 2024/04/16 12:43:31 by pgrossma         ###   ########.fr       */
+/*   Updated: 2024/04/16 13:14:58 by pgrossma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 char	**ft_arr_rm(size_t	ind, char **arr)
 {
