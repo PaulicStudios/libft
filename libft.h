@@ -6,7 +6,7 @@
 /*   By: pgrossma <pgrossma@student.42heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 15:10:05 by pgrossma          #+#    #+#             */
-/*   Updated: 2024/04/17 17:50:22 by pgrossma         ###   ########.fr       */
+/*   Updated: 2024/04/25 13:16:08 by pgrossma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,10 @@ long	ft_atol(const char *str);
 void	ft_bzero(void *s, size_t n);
 void	*ft_calloc(size_t count, size_t size);
 void	ft_arr_free(void **array);
-char	**ft_arr_add(char *str, char **arr);
-char	**ft_arr_create();
+bool	ft_arr_add(char *str, char ***arr);
+char	**ft_arr_create(void);
 char	**ft_arr_create_len(size_t len);
-char	**ft_arr_rm(size_t	ind, char **arr);
+bool	ft_arr_rm(size_t ind, char ***arr);
 size_t	ft_arr_len(char **arr);
 bool	ft_arr_cpy(char **src, char **dst);
 int		ft_isalnum(int c);
